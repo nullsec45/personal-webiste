@@ -43,6 +43,7 @@ export default function Home() {
             title={'Education'}
             subtitle={'My education journey.'}
           />
+          <Separator />
 
           <div className="my-4">
             <div className="flex items-center gap-2">

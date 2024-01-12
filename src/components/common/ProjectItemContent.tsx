@@ -21,11 +21,11 @@ export default function ProjectItemContent(props: ProjectItemType) {
         loading="lazy"
       />
       <DialogHeader>
-        <DialogTitle>{title}</DialogTitle>
+        <DialogTitle className="text-left">{title}</DialogTitle>
       </DialogHeader>
       <DialogDescription>{description}</DialogDescription>
-      <div className="flex justify-between gap-6 items-center">
-        <ul className="flex items-center gap-3" role="list">
+      <div className="flex justify-between gap-6 sm:items-center items-end">
+        <ul className="flex items-center flex-wrap gap-3" role="list">
           {tech?.map((item) => (
             <TechItem key={item.id} value={item.value} />
           ))}

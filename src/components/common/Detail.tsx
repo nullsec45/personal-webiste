@@ -28,8 +28,8 @@ export default function Detail(props: DetailPropsType) {
           style: { transitionDelay: '.2s' },
         }}
       />
-      <div className="grid grid-cols-2 md:grid-cols-6 gap-4 ">
-        <div className="md:max-w-[10rem] max-w-20 h-fit md:ml-10 -mt-12 md:-mt-14 md:sticky md:top-16">
+      <div className="grid grid-cols-2 md:grid-cols-6 md:gap-4 gap-2">
+        <div className="md:max-w-[10rem] sm:max-w-20  max-w-12 h-fit md:ml-10 ml-2 -mt-7 sm:-mt-10 md:-mt-14 md:sticky md:top-16">
           <LazyLoadImage
             className={`w-full h-full object-contain rounded-md shadow-md ${
               image == '/img/bangkit.webp' && 'bg-white'
@@ -42,7 +42,7 @@ export default function Detail(props: DetailPropsType) {
             }}
           />
         </div>
-        <div className="col-span-5 ">
+        <div className="col-span-5">
           <div className="flex items-center justify-between flex-wrap">
             <h1 className="md:text-2xl text-base font-medium mt-3 ">
               {title ? title : university}
@@ -65,7 +65,7 @@ export default function Detail(props: DetailPropsType) {
             {certificates?.length !== 0 && (
               <>
                 <h1 className="font-medium text-base">Certifications :</h1>
-                <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4 mt-2">
+                <div className="grid grid-cols-2 min-[400px]:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4 mt-4">
                   {certificates
                     ?.sort((a, b) => b.id - a.id)
                     .map((item) => (
