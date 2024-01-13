@@ -6,7 +6,7 @@ export default function Project() {
   return (
     <RootLayout title="Projects">
       <div
-        className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 py-12"
+        className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 py-10"
         data-aos="fade-up"
       >
         {projects?.map((project) => (

@@ -54,7 +54,7 @@ export default function Detail(props: DetailPropsType) {
           </h2>
           <p className="mt-4 text-sm leading-6 md:text-base">{description}</p>
           <ul
-            className="mt-2 marker:text-indigo-500 list-disc list-inside"
+            className="mt-2 marker:text-indigo-500 list-disc list-inside text-sm md:text-base"
             role="list"
           >
             {skills?.map((skill) => (
@@ -64,7 +64,9 @@ export default function Detail(props: DetailPropsType) {
           <div className="mt-4">
             {certificates?.length !== 0 && (
               <>
-                <h1 className="font-medium text-base">Certifications :</h1>
+                <h1 className="font-medium text-sm md:text-base">
+                  Certifications :
+                </h1>
                 <div className="grid grid-cols-2 min-[400px]:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4 mt-4">
                   {certificates
                     ?.sort((a, b) => b.id - a.id)
