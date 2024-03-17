@@ -23,7 +23,7 @@ export const Socials = [
     label: 'Linkedin',
   },
   {
-    href: 'x.com',
+    href: 'https://twitter.com/Dariazzeee',
     icon: <FaXTwitter size={30} />,
     label: 'X',
   },

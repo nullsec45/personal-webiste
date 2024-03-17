@@ -65,7 +65,7 @@ export default function Detail(props: DetailPropsType) {
             {certificates?.length !== 0 && (
               <>
                 <h1 className="font-medium text-sm md:text-base">
-                  Certifications :
+                  Certifications:
                 </h1>
                 <div className="grid grid-cols-2 min-[400px]:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4 mt-4">
                   {certificates
