@@ -26,6 +26,7 @@ import {
   SiTypescript,
   SiVercel,
   SiWebpack,
+  SiExpress,
 } from 'react-icons/si';
 
 export const Stacks = [
@@ -104,8 +105,12 @@ export const Stacks = [
     label: 'Node.js',
   },
   {
+    icon: <SiExpress size={35} className="text-white" />,
+    label: 'Express.js',
+  },
+  {
     icon: <SiAdonisjs size={35} className="text-indigo-500" />,
-    label: 'Adonisjs',
+    label: 'Adonis js',
   },
   {
     icon: <SiPwa size={35} className="text-red-500" />,
