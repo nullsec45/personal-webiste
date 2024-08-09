@@ -32,9 +32,9 @@ export default defineConfig({
       },
       manifest: {
         name: 'Muhammad Dariaz Zidane',
-        short_name: 'Zidane Portfolio',
-        description: 'This is my personal website',
-        theme_color: '#4f46e5',
+        short_name: 'Muhammad Dariaz Zidane',
+        description: 'Muhammad Dariaz Zidane Personal Portfolio Website built with React, Tailwind CSS, and Vite',
+        theme_color:'#4f46e5',
         display: 'standalone',
         background_color: '#030712',
         icons: [
@@ -91,14 +91,14 @@ export default defineConfig({
         start_url: '/',
         screenshots: [
           {
-            src: '/ss.png',
+            src: '/ss1.png',
             sizes: '1920x900',
             type: 'image/png',
             form_factor: 'narrow',
             label: 'Wonder Widgets',
           },
           {
-            src: '/ss.png',
+            src: '/ss2.png',
             sizes: '1919x893',
             type: 'image/png',
             form_factor: 'wide',
@@ -107,7 +107,7 @@ export default defineConfig({
         ],
       },
       devOptions: {
-        enabled: false,
+        enabled: true,
       },
     }),
     ViteImageOptimizer({
@@ -133,18 +133,14 @@ export default defineConfig({
         ],
       },
       png: {
-        // https://sharp.pixelplumbing.com/api-output#png
-        quality: 80,
+        quality: 70,
       },
 
       jpg: {
-        // https://sharp.pixelplumbing.com/api-output#jpeg
-        quality: 80,
+        quality: 70,
       },
 
-      // https://sharp.pixelplumbing.com/api-output#gif
       webp: {
-        // https://sharp.pixelplumbing.com/api-output#webp
         lossless: true,
         quality: 80,
       },

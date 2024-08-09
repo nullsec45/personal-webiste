@@ -33,12 +33,7 @@ export default function RootLayout({ children, title }: RootLayoutProps) {
         <meta name="application-name" content="Muhammad Dariaz Zidane" />
         <meta name="email" content="dariazzidane@gmail.com" />
       </Helmet>
-      <LoadingBar
-        color="#4f46e5"
-        progress={progress}
-        loaderSpeed={10}
-        onLoaderFinished={() => setProgress(0)}
-      />
+      <LoadingBar color="#4f46e5" progress={progress} loaderSpeed={10} onLoaderFinished={() => setProgress(0)} />
       <Navbar />
       <main className="max-w-6xl w-full mx-auto px-5 ">
         {children}

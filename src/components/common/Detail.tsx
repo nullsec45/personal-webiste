@@ -18,7 +18,7 @@ export default function Detail(props: DetailPropsType) {
   } = props;
 
   return (
-    <div className="w-full h-full mt-10 relative min-h-screen mb-44" data-aos="fade-down">
+    <div className="w-full h-full mt-2 sm:mt-10 relative min-h-screen mb-44" data-aos="fade-down">
       <LazyLoadImage
         className="w-full h-full object-cover rounded-md"
         src={backgroundImage}
@@ -29,9 +29,9 @@ export default function Detail(props: DetailPropsType) {
         }}
       />
       <div className="grid grid-cols-2 md:grid-cols-6 md:gap-4 gap-2">
-        <div className="md:max-w-[10rem] sm:max-w-20  max-w-12 h-fit md:ml-10 ml-2 -mt-7 sm:-mt-10 md:-mt-14 md:sticky md:top-16">
+        <div className="md:max-w-[7rem] sm:max-w-20  max-w-12 h-fit md:ml-10 ml-2 -mt-7 sm:-mt-10 md:-mt-14 md:sticky md:top-[5rem]">
           <LazyLoadImage
-            className={`w-full h-full object-contain rounded-md shadow-md ${
+            className={`w-full h-full object-contain sm:block hidden rounded-md shadow-md ${
               image == '/img/bangkit.webp' && 'bg-white'
             }`}
             src={image}

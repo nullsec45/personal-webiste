@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function ButtonDownloadCV() {
   return (
     <Link
-      to="https://drive.google.com/file/d/1i74CU89UWWOeSxOGISOj6kyEQDyT9GBR/view?usp=sharing"
+      to="https://drive.google.com/drive/folders/11kkkTHQAqII8LKjbopsn6QzbxAsMk3op?usp=sharing"
       target="_blank"
       className="flex gap-2 items-start gorup"
     >
