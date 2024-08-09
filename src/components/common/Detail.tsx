@@ -18,7 +18,7 @@ export default function Detail(props: DetailPropsType) {
   } = props;
 
   return (
-    <div className="w-full h-full mt-10 relative min-h-screen mb-44">
+    <div className="w-full h-full mt-10 relative min-h-screen mb-44" data-aos="fade-down">
       <LazyLoadImage
         className="w-full h-full object-cover rounded-md"
         src={backgroundImage}

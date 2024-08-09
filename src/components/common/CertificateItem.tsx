@@ -9,7 +9,7 @@ export default function CertificateItem({ item }: { item: CertificateType }) {
       <DialogTrigger>
         <motion.div layout className="h-full max-w-36 md:max-w-48  max-h-52">
           <LazyLoadImage
-            className="w-full max-h-48 h-full bg-gray-900 p-3 rounded-md shadow "
+            className="w-full max-h-48 h-full dark:bg-gray-900 p-3 rounded-md shadow "
             src={item.value}
             alt={item.value}
             loading="lazy"

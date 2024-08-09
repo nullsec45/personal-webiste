@@ -12,11 +12,12 @@ export default function Home() {
   return (
     <RootLayout title="Home">
       <div
-        className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 max-w-6xl mx-auto"
+        className="grid lg:grid-cols-4 grid-cols-1 max-w-7xl mx-auto"
         data-aos="fade-up"
-      >
+        >
         <ProfileCard />
-        <div className="w-full col-span-2 py-4 lg:px-10 md:px-8 sm:px-6">
+        <div className="w-full col-span-3 py-4 lg:px-10  sm:px-6"
+        >
           <div>
             <div className="my-4 flex flex-col space-y-3 lg:text-base md:text-base text-sm">
               <p className="leading-relaxed">

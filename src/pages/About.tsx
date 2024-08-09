@@ -18,8 +18,8 @@ export default function About() {
   return (
     <RootLayout title="About">
       <div className="py-10 max-w-5xl mx-auto px-4" data-aos="fade-up">
-        <h1 className="md:text-2xl text-lg font-medium">About</h1>
-        <h2 className="opacity-80 my-2">A short story of me</h2>
+        <h1 className="md:text-2xl text-lg font-medium" data-aos="zoom-in">About</h1>
+        <h2 className="opacity-80 my-2" data-aos="zoom-in">A short story of me</h2>
         <Separator />
         <div>
           <div className="my-4 flex flex-col space-y-3 lg:text-base md:text-base text-sm">

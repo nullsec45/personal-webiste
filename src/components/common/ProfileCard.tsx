@@ -4,8 +4,8 @@ import { MapPin } from 'lucide-react';
 
 export default function ProfileCard() {
   return (
-    <div className="max-h-52 max-w-56 mx-auto mb-40 md:sticky top-12 p-6 rounded-xl ">
-      <div className="mx-auto h-full w-full rounded-xl bg-gradient-to-b from-indigo-400 to-sky-700 overflow-hidden">
+    <div className="max-h-64 lg:max-w-56 w-full mx-auto mb-40 lg:sticky top-12 p-6 rounded-xl ">
+      <div className=" h-full w-full rounded-xl flex justify-center overflow-hidden">
         <LazyLoadImage
           src="/img/foto.png"
           alt="foto.png"
@@ -20,11 +20,11 @@ export default function ProfileCard() {
       <h2 className="text-sm text-center my-3 whitespace-nowrap">
         Front-end Web Developer
       </h2>
-      <h3 className="text-sm my-3 whitespace-nowrap flex items-center gap-1">
+      <h3 className="text-sm my-3 whitespace-nowrap flex items-center justify-center gap-1">
         <MapPin color="lightgreen" />
         Karawang, indonesia
       </h3>
-      <div className="flex justify-center gap-3 my-5">
+      <div className="flex justify-center w-full gap-3 my-5">
         <Social />
       </div>
     </div>

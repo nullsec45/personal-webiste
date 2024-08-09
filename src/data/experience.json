@@ -123,9 +123,24 @@
     "backgroundImage": "/img/bangkit-banner.png",
     "image": "/img/bangkit.webp",
     "company": "Dicoding Indonesia ",
-    "period": "Feb 2024 - Present",
-    "description": "Comming soon...",
-    "skills": [],
-    "certificates": []
+    "period": "Feb 2024 - Jul 2024",
+    "description": "I actively participated in the Bangkit Academy 2024 program, a collaborative initiative by Google, GoTo, and Traveloka, focusing on the Cloud Computing Learning Path. Through independent study activities, I deepened my knowledge of cloud computing through online classes on Dicoding Academy, Coursera, and Google Cloud Skills Boost. Throughout the program, I received guidance from mentors to overcome non-academic challenges and prepared for global certification exams. I also contributed to a final project with a team, where we applied our knowledge to a project with a theme of our choice approved by our mentor. The program provided opportunities to earn competency certificates each time we successfully passed exams for each taught skill. It was a valuable experience that enhanced my understanding in the field of cloud computing and provided a solid foundation for a career in the technology industry.",
+    "skills": [
+      {
+        "id": 1,
+        "name": "Cloud Infrastructure"
+      },
+      {
+        "id": 2,
+        "name": "Cloud Storage"
+      },
+      {
+        "id": 3,
+        "name": "Google Cloud Platform"
+      }
+    ],
+    "certificates": [
+      { "id": 1, "value": "/img/certifications/bangkit.png" }
+    ]
   }
 ]
