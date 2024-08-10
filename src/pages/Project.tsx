@@ -6,7 +6,7 @@ import RootLayout from '@/layouts/RootLayout';
 export default function Project() {
   return (
     <RootLayout title="Projects">
-      <div className="py-10 max-w-5xl mx-auto px-4">
+      <div className="py-10 max-w-5xl mx-auto px-2 sm:px-4">
         <h1 className="md:text-2xl text-lg font-medium" data-aos="zoom-in">Projects</h1>
         <h2 className="opacity-80 my-2" data-aos="zoom-in">My projects that I have worked on.</h2>
           <Separator />

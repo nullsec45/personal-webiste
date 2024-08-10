@@ -23,6 +23,7 @@ export default function RootLayout({ children, title }: RootLayoutProps) {
     AOS.init({
       duration: 500,
       delay: 50,
+      once: true,
     });
   }, []);
 
