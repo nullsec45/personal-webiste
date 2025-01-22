@@ -17,7 +17,7 @@ export default defineConfig({
             urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
             handler: 'CacheFirst',
             options: {
-              cacheName: 'muhammad-dariaz-zidane-cache',
+              cacheName: 'rama-fajar-cache',
               expiration: {
                 maxEntries: 10,
                 maxAgeSeconds: 60 * 60 * 24 * 365, // <== 365 days
@@ -31,9 +31,9 @@ export default defineConfig({
         globPatterns: ['**/*.{js,jsx,css,html,ico,png,svg,webp,pdf,json}'],
       },
       manifest: {
-        name: 'Muhammad Dariaz Zidane',
-        short_name: 'Muhammad Dariaz Zidane',
-        description: 'Muhammad Dariaz Zidane Personal Portfolio Website built with React, Tailwind CSS, and Vite',
+        name: 'Rama Fajar',
+        short_name: 'Rama Fajar',
+        description: 'Rama Fajar Personal Portfolio Website built with React, Tailwind CSS, and Vite',
         theme_color:'#4f46e5',
         display: 'standalone',
         background_color: '#030712',
