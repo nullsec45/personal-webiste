@@ -16,5 +16,15 @@ export const NavLinks = [
     label: 'Projects',
     href: '/projects',
     icon: <FaBriefcase size={22} className="md:hidden block" />,
+  },
+  {
+    label: 'Resume',
+    href: 'https://resume.ramafajar.com',
+    icon: <FaBriefcase size={22} className="md:hidden block" />,
+  },
+  {
+    label: 'Blog',
+    href: 'https://blog.ramafajar.com',
+    icon: <FaBriefcase size={22} className="md:hidden block" />,
   }
 ];
