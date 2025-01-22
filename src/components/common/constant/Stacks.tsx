@@ -90,11 +90,5 @@ export const Stacks = [
   { icon: <SiGit size={35} className="text-orange-600" />, label: 'Git' },
   { icon: <SiGithub size={35} />, label: 'Github' },
 
-  { icon: <SiJest size={35} className="text-pink-600" />, label: 'Jest' },
-  {
-    icon: <img src="/img/vitest.png" alt="vitest.png" width={50} height={50} loading="lazy" />,
-    label: 'Vitest',
-  },
- 
-  
+  { icon: <SiJest size={35} className="text-pink-600" />, label: 'Jest' }, 
 ];
