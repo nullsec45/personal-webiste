@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Web Developer",
-    "backgroundImage": "/img/kampus-merdeka-x-dicoding.png",
+    "backgroundImage": "",
     "image": "/img/ciptadrasoft.png",
     "company": "PT Cipdtadra Softindo",
     "period": "November 2022 - Des 2024",
@@ -17,7 +17,7 @@
   {
     "id": 2,
     "title": "Backend Engineer",
-    "backgroundImage": "/img/bangkit-banner.png",
+    "backgroundImage": "",
     "image": "/img/wiseline.png",
     "company": "Wiseline Indonesia ",
     "period": "Januari 2024 - December 2024",
