@@ -21,11 +21,11 @@ export default function Home() {
           <div>
             <div className="my-4 flex flex-col space-y-3 lg:text-base md:text-base text-sm">
               <p className="leading-relaxed">
-               A Web Developer and Junior Web Security Penetration
+              A Web Developer and Junior Web Security Penetration
               Tester with 2 years of experience in backend web development. Skilled in
               using PHP with the Laravel Framework, TypeScript with the Nest JS
               Framework, Linux, Nginx, Docker, MySQL, Cron Job, and Bash. I am
-              passionate about web development, Linux, cybersecurity, and other related
+              passionate about web development, devops, cybersecurity, and other related
               fields
               </p>
             </div>
@@ -52,9 +52,7 @@ export default function Home() {
               <FaCode size={20} />
               <h1 className="font-semibold md:text-lg">Skills</h1>
             </div>
-            <h1 className="font-normal md:text-base md:mt-2">
-              My programming skills.
-            </h1>
+          
             <div className="grid grid-cols-5 sm:grid-cols-7 md:grid-cols-9 mt-5 gap-y-4 ">
               {Stacks?.map((item, index) => (
                 <ButtonIcon key={index} icon={item.icon} label={item.label} />
