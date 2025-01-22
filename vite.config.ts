@@ -33,7 +33,7 @@ export default defineConfig({
       manifest: {
         name: 'Rama Fajar',
         short_name: 'Rama Fajar',
-        description: 'Rama Fajar Personal Portfolio Website built with React, Tailwind CSS, and Vite',
+        description: 'Rama Fajar Personal Portfolio.Website',
         theme_color:'#4f46e5',
         display: 'standalone',
         background_color: '#030712',
