@@ -1,6 +1,5 @@
 import { Separator } from '@/components/ui/separator';
 import RootLayout from '@/layouts/RootLayout';
-import { FaTiktok } from 'react-icons/fa6';
 import { useEffect } from 'react';
 
 export default function About() {
