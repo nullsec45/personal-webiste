@@ -39,37 +39,8 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="flex justify-between gap-3 items-end py-3">
-          <div>
-            <div className="flex gap-2 items-center">
-              <FaTiktok size={25} className="md:scale-100 scale-75" />
-              <h1 className="md:text-lg font-semibold text-base">Tiktok</h1>
-            </div>
-            <p className="opacity-80 mt-2 lg:text-base md:text-base text-sm">
-              Find me on tiktok
-            </p>
-          </div>
-          <p className="opacity-80 lg:text-base md:text-base text-sm">
-            @zidane_dev
-          </p>
-        </div>
-
-        <blockquote
-          className="tiktok-embed mt-2 rounded-lg"
-          cite="https://www.tiktok.com/@zidane_dev"
-          data-unique-id="zidane_dev"
-          data-embed-type="creator"
-          style={{ maxWidth: '720px', minWidth: '2rem' }}
-        >
-          <section>
-            <a
-              target="_blank"
-              href="https://www.tiktok.com/@zidane_dev?refer=creator_embed"
-            >
-              @zidane_dev
-            </a>
-          </section>
-        </blockquote>
+     
+      
       </div>
     </RootLayout>
   );

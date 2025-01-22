@@ -21,11 +21,12 @@ export default function Home() {
           <div>
             <div className="my-4 flex flex-col space-y-3 lg:text-base md:text-base text-sm">
               <p className="leading-relaxed">
-                I am a student in the Diploma 3 (D3) program currently pursuing
-                my degree at Bina Sarana Informatika University in Karawang,
-                West Java. I have a strong background in web development, with
-                expertise in using platforms such as Laravel, CodeIgniter, and
-                ReactJS to create versatile and user-friendly web applications.
+               A Web Developer and Junior Web Security Penetration
+              Tester with 2 years of experience in backend web development. Skilled in
+              using PHP with the Laravel Framework, TypeScript with the Nest JS
+              Framework, Linux, Nginx, Docker, MySQL, Cron Job, and Bash. I am
+              passionate about web development, Linux, cybersecurity, and other related
+              fields
               </p>
             </div>
           </div>

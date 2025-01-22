@@ -17,9 +17,7 @@ export default function TimelineCard(props: TimelineCardProps) {
         className="w-full my-2 mx-auto"
       >
         <CarouselContent className="px-0.5">
-          {datas
-            ?.sort((a, b) => (b.id ?? 0) - (a.id ?? 0))
-            .map((data: DetailPropsType) => (
+          {datas?.map((data: DetailPropsType) => (
               <TimelineItem data={data} key={data.id} />
             ))}
         </CarouselContent>

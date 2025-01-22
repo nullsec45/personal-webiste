@@ -30,9 +30,9 @@ export default function RootLayout({ children, title }: RootLayoutProps) {
   return (
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
       <Helmet>
-        <title>Muhammad Dariaz Zidane | {title}</title>
-        <meta name="application-name" content="Muhammad Dariaz Zidane" />
-        <meta name="email" content="dariazzidane@gmail.com" />
+        <title>Rama Fajar | {title}</title>
+        <meta name="application-name" content="Rama Fajar" />
+        <meta name="email" content="ramafajar805@gmail.com" />
       </Helmet>
       <LoadingBar color="#4f46e5" progress={progress} loaderSpeed={10} onLoaderFinished={() => setProgress(0)} />
       <Navbar />

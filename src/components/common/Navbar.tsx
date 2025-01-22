@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="flex py-4 items-center justify-between mx-auto max-w-5xl  px-5">
         <div>
           <Link to="/" className="text-primary">
-            <h1 className="lg:text-lg text-base font-semibold tracking-tight">Muhammad Dariaz Zidane</h1>
+            <h1 className="lg:text-lg text-base font-semibold tracking-tight">Rama Fajar</h1>
           </Link>
         </div>
         <div className="w-full max-w-md ms-auto font-medium space-x-7 hidden md:flex justify-end items-center">
@@ -33,7 +33,7 @@ export default function Navbar() {
                     <AvatarImage src="/img/foto.png" className=" object-cover" />
                     <AvatarFallback>DZ</AvatarFallback>
                   </Avatar>
-                  Muhammad Dariaz Zidane
+                  Rama Fajar
                 </SheetTitle>
                 <div className="flex flex-col gap-6">
                   <NavItem />
