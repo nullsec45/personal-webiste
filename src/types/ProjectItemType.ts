@@ -1,4 +1,5 @@
 import { TechItemType } from '@/types/TechItemType';
+import { RepoItemType } from './RepoItemType';
 
 export type ProjectItemType = {
   id?: number;
@@ -6,6 +7,6 @@ export type ProjectItemType = {
   description: string;
   image: string;
   demo: string;
-  repo: string;
+  repo: RepoItemType[];
   tech: TechItemType[];
 };
