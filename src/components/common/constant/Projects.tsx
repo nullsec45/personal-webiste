@@ -11,7 +11,9 @@ import {
   SiPwa,
   SiLaravel,
   SiNginx,
-  SiVuedotjs
+  SiVuedotjs,
+  SiReact,
+  SiLeaflet
 } from 'react-icons/si';
 
 export const projects = [
@@ -35,15 +37,15 @@ export const projects = [
     tech: [
       {
         id: 1,
-        value: <SiNextdotjs size={20} className="text-orange-600" />,
+        value: <SiNextdotjs size={20} className="text-black-600" title='NextJS'/>,
       },
       {
         id: 2,
-        value: <SiBootstrap size={20} className="text-indigo-600" />,
+        value: <SiBootstrap size={20} className="text-indigo-600" title='Bootstrap'/>,
       },
       {
         id: 3,
-        value: <SiMysql size={20} className="text-blue-500" />,
+        value: <SiMysql size={20} className="text-orange-500" title='MySQL'/>,
       },
     ],
   },
@@ -67,11 +69,11 @@ export const projects = [
     tech: [
       {
         id: 1,
-        value: <SiNextdotjs size={20} />,
+        value: <SiNextdotjs size={20} className='text-black-600' title='MySQL'/>,
       },
       {
         id: 2,
-        value: <SiNestjs size={20} className="text-red-600" />,
+        value: <SiNestjs size={20} className="text-red-600" title='NestJS'/>,
       },
       {
         id: 3,
@@ -85,36 +87,36 @@ export const projects = [
       },
       {
         id: 4,
-        value: <SiPrisma size={20} className="text-emerald-400" />,
+        value: <SiPrisma size={20} className="text-emerald-400" title='PrismaORM JS' />,
       },
       {
         id: 5,
-        value: <SiMysql size={20} className="text-blue-500" />,
+        value: <SiMysql size={20} className="text-orange-500" title='MySQL'/>,
       },
 
       {
         id: 7,
-        value: <img src="/img/zustand.png" alt="zustand.png" className="w-6 h-6" loading="lazy" />,
+        value: <img src="/img/zustand.png" alt="zustand.png" className="w-6 h-6" loading="lazy" title='Zustand' />,
       },
       {
         id: 8,
-        value: <SiTailwindcss size={20} className="text-teal-500" />,
+        value: <SiTailwindcss size={20} className="text-teal-500" title='Tailwind'/>,
       },
       {
         id: 9,
-        value: <SiTypescript size={20} className="text-blue-600" />,
+        value: <SiTypescript size={20} className="text-blue-600" title='TypeScript'/>,
       },
       {
         id: 10,
-        value: <SiPostman size={20} className="text-orange-500" />,
+        value: <SiPostman size={20} className="text-orange-500" title='Postman'/>,
       },
       {
         id: 11,
-        value: <SiJsonwebtokens size={20} className="text-pink-500" />,
+        value: <SiJsonwebtokens size={20} className="text-pink-500" title='JWT'/>,
       },
       {
         id: 12,
-        value: <SiPwa size={35} className="text-red-500" />,
+        value: <SiPwa size={35} className="text-red-500" title='PWA'/>,
       },
     ],
   },
@@ -134,23 +136,23 @@ export const projects = [
     tech: [
       {
         id: 1,
-        value: <SiLaravel size={20} className="text-red-500"/>,
+        value: <SiLaravel size={20} className="text-red-500" title='Laravel'/>,
       },
       {
         id: 2,
-        value: <SiMysql size={20} className="text-blue-500" />,
+        value: <SiMysql size={20} className="text-blue-500" title='MySQL'/>,
       },
       {
         id: 3,
-        value: <SiBootstrap size={20} className="text-blue-500" />,
+        value: <SiBootstrap size={20} className="text-blue-500" title='Bootstrap'/>,
       },
       {
         id: 3,
-        value: <SiVuedotjs size={20} className="text-blue-500" />,
+        value: <SiVuedotjs size={20} className="text-green-500" title='VueJS'/>,
       },
       {
         id: 4,
-        value: <SiNginx size={20} className="text-blue-500" />,
+        value: <SiNginx size={20} className="text-blue-500" title='Nginx'/>,
       },
       
     ],
@@ -171,20 +173,20 @@ export const projects = [
     tech: [
       {
         id: 1,
-        value: <SiLaravel size={20} className="text-red-500"/>,
+        value: <SiLaravel size={20} className="text-red-500" title='Laravel'/>,
       },
       {
         id: 2,
-        value: <SiMysql size={20} className="text-blue-500" />,
+        value: <SiMysql size={20} className="text-orange-500" title='MySQL'/>,
       },
       {
         id: 3,
-        value: <SiTailwindcss size={20} className="text-blue-500" />,
+        value: <SiTailwindcss size={20} className="text-blue-500" title='TailwindCSS'/>,
       },
       {
      
         id: 3,
-        value: <SiNginx size={20} className="text-blue-500" />,
+        value: <SiNginx size={20} className="text-green-500" title='Nginx'/>,
       },
       
     ],
@@ -205,18 +207,66 @@ export const projects = [
     tech: [
       {
         id: 1,
-        value: <SiNextdotjs size={20} />,
+        value: <SiNextdotjs size={20} className='text-black-600' title='NextJS'/>,
       },
       {
-        id: 3,
-        value: <SiTailwindcss size={20} className="text-blue-500" />,
+        id: 2,
+        value: <SiTailwindcss size={20} className="text-blue-500" title='TailwindCSS'/>,
       },
       {
      
         id: 3,
-        value: <SiNginx size={20} className="text-blue-500" />,
+        value: <SiNginx size={20} className="text-green-500" title='Nginx'/>,
       },
       
+    ],
+  },
+  {
+    id: 6,
+    title: 'SIG',
+    description: 'website to display spatial data of all provinces and cities/regencies in Indonesia. Then display non-spatial data of Bali province in the form of a geographic information system',
+    image: '/img/sig-home.png',
+    demo: 'https://sig.ramafajar.com',
+    repo: [
+      {
+        id:1,
+        value:'https://github.com/SIG-STT-NF/frontend'
+      },
+      {
+        id:2,
+        value:'https://github.com/SIG-STT-NF/api-laravel'
+      },
+    ],
+    
+    tech: [
+      {
+        id: 1,
+        value: <SiReact size={20} className='text-blue-500' title='ReactJS'/>,
+      },
+      {
+        id: 2,
+        value: <SiTailwindcss size={20} className="text-blue-500" title='TailwindCSS'/>,
+      },
+      {
+     
+        id: 3,
+        value: <SiNginx size={20} className="text-green-500" title='Nginx'/>,
+      },
+      {
+     
+        id: 4,
+        value: <SiLaravel size={20} className="text-red-500" title='Laravel'/>,
+      },
+      {
+     
+        id: 5,
+        value: <SiMysql size={20} className="text-orange-500" title='MySQL'/>,
+      },
+      {
+     
+        id: 6,
+        value: <SiLeaflet size={20} className="text-green-500" title='Leaflet'/>,
+      },
     ],
   },
 ];
